@@ -1,0 +1,118 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+³  Index
+³ ÄÄÄÄÄÄÄ
+³
+³ .Index
+³ .Xor v0.60
+³ .Usage
+³ .Info
+³ .Little History
+³ .Thanks To
+³ .EoF
+³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+
+
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+¿                                                                            Ú
+´                                 Xor v0.60                                  Ã
+´                                ÄÄÄÄÄÄÄÄÄÄÄ                                 Ã
+´                                                                            Ã
+´    Una vez que se ejecuta queda residente en memoria, e intercepta la int  Ã
+´ 21h (Dos) y 2fh (Multiplex int).                                           Ã
+³    Ya instalado el programa, los files encriptados se pueden leer/escribir ³
+³ normalmente, y sin que uno se de cuenta en disco son grabados encriptados. ³
+³    Adem s, si esta la opci¢n Prompt del xor activada (xor /p1) cada vez    ³
+³ que sea creado un file, aparecer  en pantalla la pregunta de si desea      ³
+³ crear el archivo como encriptado.. (y=si)                                  ³
+³ La opci¢n Prompt se desinstala con xor /p0.                                ³
+³                                                                            ³
+³ () El m‚todo de encripci¢n es, realmente, muy trucho, pero, tengase en    ³
+³ cuenta que esto esta en vias de desarrollo, y para hacer algo interesante  ³
+³ que funcione, conviene empezarlo de a poco!                                ³
+³                                                                            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³  Usage                                                   ÚÙ
+ÃÄÄÄÄÄÄÄÄ                                            ÄÄÄÄÂÄÙ
+³                                                        À¿
+³  Xor.Com     :If it's not installed => install          À¿
+³                                else => show Msg.         À¿
+³                                                           ³
+³  Xor.Com /u  :If it's installed                           ³
+³                  => If CAN be uninstalled => Uninstalls   ³
+³                                      else => Show Msg.    ³
+³                                                           ³
+³  Xor.Com /px :If it's not installed => show msg           ³
+³                  else if x=1 => Set Prompt On             ³
+³                          else   Set Prompt Off.           ³
+³                                                           ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ- - ú
+³  Info
+³  ÃÄSource
+³  ³ ÃÄLanguage\Compiler
+³  ³ ³ ÃÄVersion 0.00. Pascal 7.0 with much BAsm.
+³  ³ ³ ÃÄVersion 0.50. Full asm code. Tasm 3.2.
+³  ³ ³ ÃÄVersion 0.52. Tasm 4.0.
+³  ³ ³ ÀÄVersion 0.60. Tasm 4.0.
+³  ³ ÀÄFiles             Bytes    Lines
+³  ³   ÃÄDosConst.inc      456       16
+³  ³   ÃÄXorConst.inc     1236       27
+³  ³   ÃÄXorMacro.inc      834       26
+³  ³   ÀÄXor.asm          9885      472
+³  ÀÄExecutable
+ú    ÀÄXor.com             920
+
+ÚÄÄÄÄÄ
+ÅÄ
+³  Little History
+³ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+³
+³   +   Added.
+³   *   Changed.
+³   o   ¨Who knows when/where it comes from?
+³   -   Stirpped bug.
+³
+³  Version
+³   0.01   o Unknow version. :-)
+³   0.50   o Detect in memory.
+³          o Encrypt. (only .enc files)
+³          o Decrypt. (idem)
+³          + Uninstall.
+³          + Full asm code.
+³          + Screen messages.
+³          + De/Coding flag in screen.
+³          + Little parameters checker.
+³   0.51   + Little code/var optimization.
+³          - DN int 2fh incompatibility (now use 16h int).
+³          - Some bug with some internal variable.
+³   0.60   + Use file time (don't use .Enc extension).
+³          + /p0 Set Prompt=Off. (Default)
+³              1 Set Prompt=On.
+³          + Ask to crypt a file when the dos goes to create one.
+³          - Can't set prompt if xor is not installed.
+³
+ÅÄ
+ÀÄÄÄÄÄ
+
+ÚÄÄÄÄÄ
+ÅÄ
+³   Thanks To
+³  ÄÄÄÄÄÄÄÄÄÄÄ
+³
+³   .Woody, for the help gived.
+³   .FidoNet.
+³   .Borland, for the BP 7.0 & TAsm.
+³   .Norton, for the Norton Guides.
+³   .
+³   ...
+³
+ÅÄ
+ÀÄÄÄÄÄ
+úEoFú
